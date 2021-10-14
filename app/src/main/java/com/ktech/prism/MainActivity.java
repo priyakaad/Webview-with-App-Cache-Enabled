@@ -55,7 +55,7 @@ public class MainActivity extends Activity  {
         webSettings.setSavePassword(true);
         webSettings.setSaveFormData(true);
         webSettings.setEnableSmoothTransition(true);
-        wv1.loadUrl("https://prismsuccessacademy.com/wp-admin/");
+        wv1.loadUrl("https://www.facebook.com");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             wv1.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         } else {
